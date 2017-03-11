@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-react",
+  "name": "react-twitter-livefeed",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,12 +7,14 @@
     "start": "node_modules/.bin/babel-node --presets react,es2015 server.js"
   },
   "dependencies": {
+    "axios": "^0.15.3",
+    "babel-watch": "^2.0.6",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
+    "oauth": "^0.9.15",
     "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-redux": "^5.0.3",
     "react-router": "^3.0.2",
     "webpack": "^2.2.1"
   },

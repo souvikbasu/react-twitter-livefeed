@@ -1,0 +1,9 @@
+* {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
